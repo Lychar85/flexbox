@@ -1,0 +1,383 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+/*NAVIGATION
+====================================================*/
+nav{
+    
+    letter-spacing: 2px;
+    height: 80px;
+    font-size: 95%;
+    background-color: rgb(70, 70, 70);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+nav ul li a{
+    transition: 500ms;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: blanchedalmond;
+    opacity: 0.5;
+}
+
+.btn-nav{
+    display: flex;
+    margin: 8px 20px 0px 80px;
+}
+
+.btn-nav a{
+    text-decoration: none;
+}
+
+.btn-projet, .btn-pro{
+    transition: 300ms;
+    border: none;
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.btn-projet{
+    
+    background-color: rgba(255, 235, 205, 0.904);
+    color: black;
+}
+
+.btn-projet:hover{
+    
+    transition: 300ms;
+    opacity: 0.8;
+    background: none;
+    color: blanchedalmond;
+}
+
+.btn-pro{
+    border: 2px solid blanchedalmond;
+}
+
+.btn-pro:hover{
+    background-color: blanchedalmond;
+    color: black;
+    opacity: 0.8;
+}
+
+/*HEADER
+====================================================*/
+.header{
+    padding: 0;
+    height: 600px;
+    background: url(../assets/img/Home-container1.jpg) no-repeat right fixed;
+}
+
+.block-border{
+    width: 25%;
+    margin: 50px 0px 0px 200px;
+    padding: 25px 10px 0px 0px;
+    border: 2px solid rgba(70, 70, 70, 0.8);
+    border-radius: 2px;
+}
+
+.info-header{
+    background-color: rgba(70, 70, 70, 0.8);
+    height: 600px;
+}
+
+.info-header h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 90px;
+    font-size: 300%;
+}
+
+.btn-header{
+    transition: 400ms;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 110%;
+    color: white;
+    margin-left: 80px;
+}
+
+.btn-header:hover{
+    transition: 400ms;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.info-header a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/*PAGE1
+==============================================================================================================*/
+
+/*SECTION
+=======================================================*/
+.section1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+    
+}
+
+.titre1{
+    margin-top: 100px ;
+    height: 80px;
+    width: 40%;
+    text-align: center;
+    box-shadow: 30px 30px 2px rgba(70, 70, 70, 0.8);
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+.block-estimation{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px;
+    height: 200px;
+    border: 2px double blanchedalmond;
+}
+
+.btn-estimation{
+    transition: 300ms;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 110%;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.btn-estimation:hover{
+    transition: 300ms;
+    color: black;
+    filter: brightness(80%);
+    text-decoration: none;
+
+}
+
+.txt{
+    margin-top: 70px;
+    width: 30%;
+}
+
+.titreh4{
+    margin-top: 40px;
+}
+
+.section1 ul {
+    list-style-type: none
+}
+
+.section1 ul li{
+    margin-top: 20px;
+}
+.table-prix{
+    text-align: center;
+    font-size: 130%;
+    margin-top: 120px;
+    border: 3px solid rgba(70, 70, 70, 0.8);
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.table-prix td, .table-prix th{
+    margin-right: 20px;
+}
+
+.table-prix thead tr{
+    background-color: blanchedalmond;
+    height: 80px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(70, 70, 70, 0.8);
+}
+
+.table-prix tr{
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.grey{
+    background-color: rgba(70, 70, 70, 0.8);
+    color: white;
+}
+
+/*PAGE DEVIS
+==============================================================================================================*/
+.H1-rea{
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+}
+
+#realisation{
+    display: flex;
+    flex-direction: column;
+}
+
+.construction, .renovation-agrandissement{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.exemple-construction, .exemple-renovation-agrandissement{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.exemple-construction img, .exemple-renovation-agrandissement img{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PAGE DEVIS
+==============================================================================================================*/
+#devis{
+    font-size: 130%;
+    height: 937px;
+    background-image: url(../assets/img/img-devis.jpg);
+}
+
+.table-devis{
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    padding: 150px 0px 0px 50px;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.table-devis ul li{
+    list-style-type: none;
+
+}
+
+.table-devis h3{
+    height: 60px;
+    width: 60%;
+    background-color: blanchedalmond;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.checkbox{
+    height: 25px;
+    width: 25px;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 50%;
+    text-align: right;
+}
+
+.btn-devis{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btn-devis:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER
+=======================================================*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    height: 400px;
+    background-color: rgba(70, 70, 70, 0.8);
+}
+
+.nav-footer{
+    list-style-type: none;
+    background-color: rgb(70, 70, 70);
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.nav-footer li a{
+    color: white;
+}
+
+/*OTHER
+=======================================================*/
+.return{
+    height: 50px;
+    width: 50px;
+    background-color: saddlebrown;
+    position: fixed;
+    float: right;
+}
+
+img{
+    border-radius: 10px;
+}
+
