@@ -404,3 +404,123 @@ img{
     border-radius: 10px;
 }
 
+/*RESPONSIVE
+=======================================================*/
+
+@media screen and (max-width: 1250px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .block-border, .info-header{
+        padding: 0%;
+        margin:0%;
+        width: 100%;
+    }
+
+    .btn-header{
+        margin: 0%;
+    }
+
+    .header{
+        margin-bottom: 400px;
+    }
+
+    .section1{
+        margin: 0%;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .titre1, .txt{
+        width: 100%;
+        height: 100%;
+    }
+
+    .return{
+        display: none;
+    }
+
+    .other{
+        display: none;
+    }
+
+    footer{
+        width: 100%;
+        background: none;
+    }
+
+    .nav-footer{
+        display: none;
+        
+    }
+
+    nav{
+        width: 100%;
+        height: 60%;
+        padding: 0%;
+        
+
+        
+    }
+
+    nav ul {
+        display: inline;
+        
+    }
+
+    .btn-nav{
+        margin: 0%;
+        width: 100%;
+        display: inline;
+    }
+
+    /*REALISATION
+    =======================================================*/
+    #realisation{
+        margin: 0;
+        padding: 0%;
+    }
+
+    #realisation p{
+        margin-bottom: 25px;
+    }
+
+   #realisation h3, #realisation h4{
+       margin-bottom: 30px;
+   }
+    .H1-rea{
+        margin-bottom: 50px;
+    }
+
+    .construction, .exemple-construction,.exemple-renovation-agrandissement{
+        margin: 0%;
+        padding: 0%;
+        display: block;
+    }
+
+    .txt-construction{
+        margin: 0%;
+        padding: 0%;
+    }
+    .renovation-agrandissement{
+        margin-bottom: 50px;
+        padding: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /*CONTACT
+    =======================================================*/
+    #contact{
+        background: none;
+    }
+
+    form{
+        text-align: center;
+        margin: 50px 0px 0px 0px ;
+        width: 100%;
+        height: 100%;
+    }
+}
