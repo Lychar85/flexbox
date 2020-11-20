@@ -296,6 +296,65 @@ fieldset{
     margin-left: 25px;
 }
 
+/*PAGE CONNEXION
+==============================================================================================================*/
+.connexion,.inscription{
+    
+    display: flex;
+    justify-content: center;
+    background: url(../assets/img/bg-connexion.jpg) fixed no-repeat;
+    height: 857px;
+}
+
+.connexion h2, .inscription h2{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.connexion form{
+    margin-top: 100px;
+    text-align: center;
+    height: 700px;
+    width: 500px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.inscription form{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 50px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.mdp-oublier, .inscription-btn{
+    font-size: 80%;
+    color: blue;
+    background: none;
+    border: none;
+}
+
+.connect-btn, #btn-inscription{
+    margin-bottom: 35px;
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+.btn-envoyer{
+    background: none;
+    border: none;
+    margin-right: 25px;
+}
+
+
+
+
+
+
 
 
 /*PAGE DEVIS

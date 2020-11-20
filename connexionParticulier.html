@@ -46,9 +46,55 @@
         </ul>
     </nav>
 
+<div class="connexion">
+   
+    <form>
+        <h2>Connecter vous</h2>
+        <fieldset>
+          <input placeholder="Adresse email" type="email"  required>
+        </fieldset>
 
+        <fieldset>
+            <input placeholder="Mot de passe" type="password" required>
+        </fieldset>
 
-
+        <button type="button" class="mdp-oublier" data-toggle="modal" data-target="#myModal">
+            Mot de passe oublier ?
+          </button>
+        
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Mot de passe oublier ?</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>veuillez entrez votre adresse mail </p>
+                  <input placeholder="adresse email" type="email" required>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn-envoyer" data-dismiss="modal">Envoyer </button>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        <fieldset>
+          <button class="connect-btn" name="submit" type="submit" id="contact-submit" data-submit="...Sending">connexion</button>
+        </fieldset>
+        <a class="inscription-btn" href="Inscription.html">Pas de compte ? Inscrivez-vous maintenant</a>
+      </form>
+    
+</div>
 
 
 
